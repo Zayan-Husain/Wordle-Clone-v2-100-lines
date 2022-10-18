@@ -1,0 +1,59 @@
+html {
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font: 100;
+    transform: scale(2);
+    transition: 500ms;
+    margin-top: 35px;
+    color: rgb(77, 77, 77);
+}
+
+/*300ms transition time for placing letter*/
+
+td.r1,
+td.r2,
+td.r3,
+td.r4,
+td.r5,
+td.r6 {
+    background-color: white;
+    border: 2px solid rgb(184, 184, 184);
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+span {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.green {
+    background-color: limegreen !important;
+}
+
+.yellow {
+    background-color: yellow !important;
+}
+
+.gray {
+    background-color: gray !important;
+}
+
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 430px;
+    height: 515px;
+    transform: translate(-50%, -50%);
+}
